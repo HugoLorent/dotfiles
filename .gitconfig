@@ -1,9 +1,12 @@
 [alias]
-	graph = log --all --graph --decorate --oneline
+    graph = log --all --graph --decorate --oneline
 [core]
-	editor = vim
+    editor = vim
+[credential]
+    credentialStore = gpg
+    helper = /usr/local/bin/git-credential-manager
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [user]
     email = hugo.lorent@outlook.com
     name = Hugo LORENT
