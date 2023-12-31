@@ -1,0 +1,9 @@
+[alias]
+	graph = log --all --graph --decorate --oneline
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[user]
+    email = hugo.lorent@outlook.com
+    name = Hugo LORENT
