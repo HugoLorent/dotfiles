@@ -1,5 +1,6 @@
 [alias]
     graph = log --all --graph --decorate --oneline
+    s = status
 [core]
     editor = vim
 [credential]
