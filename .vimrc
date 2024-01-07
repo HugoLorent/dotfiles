@@ -6,6 +6,21 @@ set nocompatible " not vi compatible
 syntax on " turn on syntax highlighting
 set showmatch " show matching braces when text indicator is over them
 
+" highlight current line, but only in active window
+augroup CursorLineOnlyInActiveWindow
+    autocmd!
+    autocmd VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+    autocmd WinLeave * setlocal nocursorline
+augroup END
+
+" enable vim-colors-solarized
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
+filetype plugin indent on " enable file type detection
+set autoindent
+
 "---------------------
 " Basic editing config
 "---------------------
