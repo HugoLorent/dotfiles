@@ -9,3 +9,4 @@ alias ll='ls -Alh'
 
 # cd aliases
 alias ..='cd ..'
+alias ...='cd ../..'
