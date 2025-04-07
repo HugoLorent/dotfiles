@@ -10,3 +10,6 @@ alias ll='ls -Alh'
 # cd aliases
 alias ..='cd ..'
 alias ...='cd ../..'
+
+# rm alias
+alias rm='rm -I'
